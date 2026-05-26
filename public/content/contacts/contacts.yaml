@@ -1,0 +1,17 @@
+items:
+  - name: Carlos Silva
+    role: Gerente Comercial
+    description: Responsável pela equipe de vendas e atingimento de metas
+    whatsapp_url: https://wa.me/5511999999999
+  - name: Ana Rodrigues
+    role: Coordenadora de RH
+    description: Responsável por recrutamento, treinamento e benefícios
+    whatsapp_url: https://wa.me/5511888888888
+  - name: Pedro Santos
+    role: Suporte TI
+    description: Auxilia com problemas técnicos e solicitações de acesso
+    whatsapp_url: https://wa.me/5511777777777
+  - name: Maria Oliveira
+    role: Analista Administrativa
+    description: Cuida de documentação, contratos e processos internos
+    whatsapp_url: https://wa.me/5511666666666

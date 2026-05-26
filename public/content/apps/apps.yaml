@@ -1,0 +1,37 @@
+items:
+  - name: Zoom
+    description: Videoconferências e reuniões online com clientes e equipe
+    website_url: https://zoom.us
+    ios_url: https://apps.apple.com/br/app/zoom-cloud-meetings/id546505307
+    android_url: https://play.google.com/store/apps/details?id=us.zoom.videomeetings
+    icon: video
+  - name: Trello
+    description: Gestão de tarefas e projetos da equipe
+    website_url: https://trello.com
+    ios_url: https://apps.apple.com/br/app/trello/id1278509851
+    android_url: https://play.google.com/store/apps/details?id=com.trello
+    icon: layout
+  - name: Google Drive
+    description: Armazenamento e compartilhamento de documentos
+    website_url: https://drive.google.com
+    ios_url: https://apps.apple.com/br/app/google-drive-share-store-cloud-fil/id507874739
+    android_url: https://play.google.com/store/apps/details?id=com.google.android.apps.docs.edit
+    icon: hard-drive
+  - name: Slack
+    description: Comunicação interna da equipe
+    website_url: https://slack.com
+    ios_url: https://apps.apple.com/br/app/slack-team-communication/id618783545
+    android_url: https://play.google.com/store/apps/details?id=com.Slack
+    icon: message-circle
+  - name: Excel Online
+    description: Planilhas e controle financeiro
+    website_url: https://www.office.com/excel
+    ios_url: https://apps.apple.com/br/app/microsoft-excel/id586683436
+    android_url: https://play.google.com/store/apps/details?id=com.microsoft.office.excel
+    icon: table
+  - name: WhatsApp Business
+    description: Comunicação direta com clientes
+    website_url: https://www.whatsapp.com/business
+    ios_url: https://apps.apple.com/br/app/whatsapp-business/id1389402982
+    android_url: https://play.google.com/store/apps/details?id=com.whatsapp.w4b
+    icon: message-square

@@ -1,0 +1,66 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "apps"
+    label: "Aplicativos"
+    folder: "content/apps"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Nome", name: "name", widget: "string"}
+      - {label: "Descrição", name: "description", widget: "text"}
+      - {label: "Website URL", name: "website_url", widget: "string", required: false}
+      - {label: "iOS URL", name: "ios_url", widget: "string", required: false}
+      - {label: "Android URL", name: "android_url", widget: "string", required: false}
+      - label: "Ícone"
+        name: "icon"
+        widget: "select"
+        options:
+          - {label: "Vídeo", value: "video"}
+          - {label: "Layout", value: "layout"}
+          - {label: "Hard Drive", value: "hard-drive"}
+          - {label: "Mensagem", value: "message-circle"}
+          - {label: "Tabela", value: "table"}
+          - {label: "WhatsApp", value: "message-square"}
+          - {label: "Calendário", value: "calendar"}
+          - {label: "E-mail", value: "mail"}
+          - {label: "Documento", value: "file-text"}
+          - {label: "Cloud", value: "cloud"}
+          - {label: "Gráfico", value: "bar-chart"}
+          - {label: "Configurações", value: "settings"}
+
+  - name: "contacts"
+    label: "Contatos"
+    folder: "content/contacts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Nome", name: "name", widget: "string"}
+      - {label: "Cargo", name: "role", widget: "string"}
+      - {label: "Descrição", name: "description", widget: "text", required: false}
+      - {label: "WhatsApp URL", name: "whatsapp_url", widget: "string"}
+
+  - name: "culture"
+    label: "Cultura"
+    folder: "content/culture"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Título", name: "title", widget: "string"}
+      - {label: "Conteúdo", name: "content", widget: "markdown"}
+
+  - name: "faq"
+    label: "FAQ"
+    folder: "content/faq"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Pergunta", name: "question", widget: "string"}
+      - {label: "Resposta", name: "answer", widget: "markdown"}

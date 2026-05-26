@@ -1,0 +1,25 @@
+items:
+  - question: "Como solicito acesso a um novo sistema?"
+    answer: |
+      Envie uma solicitação para o time de TI pelo Slack ou diretamente para Pedro Santos via WhatsApp. Inclua o nome do sistema e o motivo da solicitação. O prazo médio é de 24 a 48 horas úteis.
+  - question: "Qual é o horário de trabalho?"
+    answer: |
+      Nosso horário padrão é de segunda a sexta, das 9h às 18h. Temos flexibilidade para entrada entre 8h e 10h, desde que seja respeitada a carga horária de 8 horas diárias.
+  - question: "Como funciona a política de férias?"
+    answer: |
+      Férias podem ser solicitadas com antecedência mínima de 30 dias. A aprovação depende do gestor direto. Após 1 ano de casa, o colaborador tem direito a 30 dias de férias. Solicite pelo portal do RH.
+  - question: "Onde encontro informações sobre benefícios?"
+    answer: |
+      Todas as informações sobre benefícios (vale-refeição, vale-transporte, plano de saúde, etc.) estão disponíveis no portal do RH. Para dúvidas específicas, entre em contato com Ana Rodrigues.
+  - question: "Como funciona a avaliação de desempenho?"
+    answer: |
+      Realizamos avaliações semestrais. O processo inclui autoavaliação, avaliação do gestor e feedback. Os resultados são utilizados para plano de desenvolvimento individual e possíveis ajustes salariais.
+  - question: "Preciso registrar ponto?"
+    answer: |
+      Não temos sistema de ponto tradicional. Confiamos na responsabilidade de cada colaborador. É importante registrar a entrada e saída no sistema interno para controle de jornada.
+  - question: "Como posso sugerir melhorias?"
+    answer: |
+      Sua voz é importante! Utilize o canal de sugestões no Trello ou participe das reuniões de equipe. Todas as ideias são avaliadas pela liderança.
+  - question: "Qual é a política de trabalho remoto?"
+    answer: |
+     Trabalhamos com modelo híbrido. Cada gestor define os dias de presença Mandatory. Para work from home, comunique seu gestor com antecedência mínima de 24 horas.
